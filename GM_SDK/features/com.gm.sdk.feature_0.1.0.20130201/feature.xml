@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.gm.sdk.feature"
+      label="GM SDK"
+      version="0.1.0.20130201"
+      provider-name="GM">
+
+   <plugin
+         id="com.gm.sdk"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="com.gm.sdk.docs"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="com.gm.sdk.emulator"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="com.gm.sdk.product"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.debug"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.debug.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.debug.ui"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk.wip.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.symbian.tools.tmw.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.symbian.tools.tmw.debug.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.symbian.tools.tmw.previewer"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.symbian.tools.tmw.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.css"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20130201"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk.wipbackend.protocol_1_0"
+         download-size="0"
+         install-size="0"
+         version="0.3.4.20130201"
+         unpack="false"/>
+
+</feature>
