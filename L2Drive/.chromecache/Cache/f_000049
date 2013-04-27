@@ -1,0 +1,778 @@
+<!--
+This is the main container for the emulator. This file includes all of the scripts that are required to run the emulator, 
+as well as the HTML that makes up the emulator.
+
+Of special note is a div with id #applications. While the emulator is running, iframes will be added into this div, 
+where each running app has its own iframe.  In most cases, the iframe for an app will have an id composed of the numeric 
+index for the app within app.config.js, prefixed by 'app'. The src is determined by the folder property, relative to the 
+emulator.html file.
+
+This div is pre-populated with an view called 'home' (Emulator.HOME_SCREEN_ID) (which will be explained in the interface/home section).
+Some of the HTML is placeholder and is populated by the js/emulator.js file.  
+ -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+	<head>
+	    <meta http-equiv="Pragma" content="no-cache"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+
+		<title>GM Infotainment System Emulator</title>
+		<!-- SCRIPT LOADER -->
+		<script data-main="js/main" src="js/require.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		
+		<link rel="stylesheet" href="style/layout.css" />
+		<link rel="stylesheet" href="style/panels.css" />
+		<link rel="stylesheet" href="style/screen.css" />
+		<link rel="stylesheet" href="style/overlays.css" />
+	</head>
+	<body>
+		<div id="emulator">
+			<div class="external-panel">
+				<div class="inner">
+					<div id="gm-logo"></div>
+					<div class="divider" style="left:46px"></div>
+				</div>
+			</div>
+
+			
+			<div id="screen_panel">
+				<div id="screen_container_container">
+				<div id="screen_container">
+			        <div id="app_window_top_row" class="screen-overlay">
+						APPLICATION TRAY AREA
+				        <div class="left" id="app_window_temp">
+				           <span id="temp_value"></span>
+				           <span id="temp_units">&deg; F</span>
+				        </div>
+				        <div class="center" id="app_window_menu">
+				            <div id="app_window_music"></div>
+				            <div id="app_window_navigation"></div>
+				            <div id="app_window_phone"></div>
+				            <div id="app_window_seat"></div>
+				            <span class="reset"></span>
+				        </div>
+				        <div class="right" id="app_window_time">
+				           <span id="app_window_time_value"></span>
+				           <span id="app_window_time_suffix"></span>
+				        </div> 
+			        </div>
+					<div id="app_window_bottom_left" class="screen-overlay">
+						<div id="app_window_volume" class="hide">
+							<div class="frame">
+								<div class="bg"></div>
+								<div class="fg">
+									<div class="overlay"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="interaction_selectors">
+						<div class="toggle"><div class="arrow up"></div></div>
+					</div>
+				    <div id="applications">
+				        <!-- Populated by emulator .js from app.config.js -->
+				        <div id="home" name="home" class="active iframe">
+				            <div id="application_launcher">
+								
+					        </div>
+				        </div>
+					</div>
+					<!--  Native application windows -->
+					<div id="native_application_windows" class="hide">
+						<div class="close"></div>
+						<!--  Phone -->
+						<div id="phone_window_confirm" class="native-window hide">
+							<div class="window-title">Confirmation</div>
+							<div class="window-body">
+								<div class="window-text">Call:</div>
+								<div class="window-field">
+									<input id="phone_number_confirm" type="text" value=""/>
+								</div>
+							</div>
+							<div class="window-actions">
+								<button class="cancel" >Cancel</button>
+								<button class="failure" >Confirm/Fail</button>
+								<button class="success" >Confirm/Success</button>
+							</div>
+						</div>
+						<div id="phone_window_success" class="modal-ok native-window hide">
+							<div class="window-title">Speaking with:</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >End Call</button>
+							</div>
+						</div>
+						<div id="phone_window_failure" class="modal-ok native-window hide">
+							<div class="window-title">Call Failed</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >End Call</button>
+							</div>
+						</div>
+						<!--  Text Message -->
+						<div id="text_message_confirm" class="native-window hide">
+							<div class="window-title">Confirm Text Message:</div>
+							<div class="window-body">
+								<div class="window-field">
+									<span>To:</span>
+									<input id="text_number_confirm" type="text" value = "" />
+								</div>
+								<div class="window-field">
+									<textarea id="text_message" rows=4></textarea>
+								</div>
+								<div class="window-actions">
+									<button class="cancel" >Cancel</button>
+									<button class="failure" >Confirm/Fail</button>
+									<button class="success" >Confirm/Success</button>
+								</div>
+							</div>
+						</div>
+						<div id="text_window_success" class="modal-ok native-window hide">
+							<div class="window-title">Message sent</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >OK</button>
+							</div>
+						</div>
+						<div id="text_window_failure" class="modal-ok native-window hide">
+							<div class="window-title">Failed to send message</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >OK</button>
+							</div>
+						</div>
+						<!--  Email  -->
+						<div id="email_window_confirm" class="native-window hide">
+							<div class="window-title">Confirm Email</div>
+							<div class="window-body">
+								<div class="window-field">
+									<span>To: </span>
+									<input id="email_to" />
+								</div>
+								<div class="window-field">
+									<span>From: </span>
+									<span id="email_from"></span>
+								</div>
+								<div class="window-field">
+									<span>Subject: </span>
+									<input id="email_subject" />
+								</div>
+								<div class="window-field">
+									<textarea id="email_body" rows="4"></textarea>
+								</div>
+								<div class="window-actions">
+									<button class="cancel" >Cancel</button>
+									<button class="failure" >Confirm/Fail</button>
+									<button class="success" >Confirm/Success</button>
+								</div>
+							</div>
+						</div>
+						<div id="email_window_success" class="modal-ok native-window hide">
+							<div class="window-title">Email Sent</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >OK</button>
+							</div>
+						</div>
+						<div id="email_window_failure" class="modal-ok native-window hide">
+							<div class="window-title">Failed to send email</div>
+							<div class="window-body"></div>
+							<div class="window-actions">
+								<button class="end" >OK</button>
+							</div>
+						</div>
+						<!--  Show Alert -->
+						<!-- primaryButtonText (etc.) css class is used for rendering contents-->
+	                    <div id="show_alert" class="native-window hide">
+	                        <div id="alert_title" class="alertTitle window-title">Alert Title</div>
+	                        <div id="alert_detail" class="alertDetail window-body">Alert Detail Line 1</div>
+							<div class="window-actions">
+		                    	<button class="alert-action primaryButtonText" id="alert_primary_action">Primary Action</button>
+		                    	<button class="alert-action secondaryButtonText" id="alert_secondary_action">Alternate Action 1</button>
+							</div>
+	                        <span class="reset"></span>
+	                    </div>
+						<!--  Video player -->
+						<div id="video_container" class='native-window loading hide'>
+							<applet code='com.gm.MediaPlayer' mayscript id="mediaPlayer" name="mediaPlayer"
+							      archive = 'lib/MediaPlayerAppletSigned.jar, lib/gstreamer-java-1.5-signed.jar, lib/jna-3.2.4-signed.jar'>
+							</applet>
+						</div>
+						<!-- POISearch -->
+						<div id="poisearch" class='native-window hide'>
+							<div class="srch-container">
+								<input type="text" class="search-text" />
+								<button class="search-btn">Search</button>
+								<ul class="search-results hide"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+				
+				<div id="control_container" class="gmw-panel" style="width: 100%; float:none;">
+					
+					<div id="audio_container" class="gmw-panel audio-panel">
+						<span class="title">VOL</span>
+						<div class="inner">
+							<div class="volume-group">
+								<button class="volume-up" value="SWC_VOL_UP"></button>
+								<button class="volume-down" value="SWC_VOL_DOWN"></button>
+							</div>
+						</div>
+					</div>
+					<div id="steering_wheel_container" class="gmw-panel swc-panel">
+						<span class="title">SWC</span>
+						<div class="inner">
+							<div class="gmw-panel-divider" style="left: 73px"></div>
+							
+							<div class="d-pad-group small">
+								<button class="d-pad up" value="SWC_UP"></button>
+								<button class="d-pad down" value="SWC_DOWN"></button>
+								<button class="d-pad select" value="SWC_SELECT"></button>
+							</div>
+							
+							<div class="gmw-panel-divider" style="right: 0px"></div>
+						</div>
+					</div>
+
+					<div class="gmw-panel rotary-panel" id="rotary_container">
+						<span class="title">ROTARY</span>
+						<div class="inner">
+
+							<div class="rotary-group">
+                                <div class="RotaryKnobBG">
+                                    <div class="rotary-shadow"></div>
+                                    <button class="rotary-dial reset"></button>
+                                    <div class="rotary-inner-shadow"></div>
+                                    <button class="rotary-overlay"></button>
+                                    <button class="rotary-select" value="RC_SELECT"></button>
+
+                                </div>
+							</div>
+							
+							<div class="gmw-panel-divider" style="right: 0px"></div>
+
+						</div>
+					</div>
+
+
+					<div class="gmw-panel soft-keys" id="soft_keys">
+						<span class="title">SOFT KEYS</span>
+						<div class="inner">
+							<button value="BACK_SWITCH" class="gmw-button">Back</button>
+							<button value="INFO_SWITCH" class="gmw-button">Info</button>
+						</div>
+					</div>
+					
+					<div id="date_time_container" class="gmw-panel clock-panel" style="display:none">
+						<div class="inner">
+							
+							<div class="led-display">
+								<div id="time" class="digital large"></div>
+								<div id="date" class="digital">Loading...</div>
+								<button id="set_time" value="Vehicle_Data"></button>
+							</div>	
+							
+							<div class="led-display narrow">
+								<span class="label led-color">Time Multiplier:</span>
+								<div class="inputs">
+									<!-- <span id="speed_indicator" class="digital">1.00</span> -->
+									<span class="speed-selector-label" class="digital">x</span>
+									<select class="speed-selector">
+										<option>0.25</option>
+										<option>0.50</option>
+										<option>1.00</option>
+										<option>2.00</option>
+										<option>5.00</option>
+										<option>10.0</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="gmw-panel filler"></div>
+					
+					<div class="gmw-panel trip-panel" id="navigation_container">
+						<span class="title">NAVIGATION</span>
+						<div class="inner">
+							<div id="driving_simulator">
+								<div class="toggle">
+									<a class="panel-label location selected" href="#">location</a>
+									<a class="panel-label route" href="#">route</a>
+								</div>
+								<div id="nav_route" class="hide">
+								
+									<span class="panel-label">Route Start</span>
+									<input type="text" id="start_route" value="Portland, Oregon" />
+									<br>
+									<span class="panel-label">WayPoint</span>
+											<select multiple id="way_point">
+    								 			 <option value="Seattle, WA">Seattle, WA</input>
+    								 			 <option value="Bellevue, WA">Bellevue, WA</input>
+											 <option value="Bellingham , WA">Bellingham , WA</input>
+											 <option value="Spokane , WA">Spokane , WA</input>
+											 <option value="Detroit, MI">Detroit , MI</input>
+    									   </select>
+									<br>
+									<span class="panel-label">Destination</span>
+									<input type="text" id="end_route" value="Whistler, Canada" />
+									
+										<button class="gmw-button" id="load_directions">Load</button>
+										<button disabled="disabled" class="gmw-button sim sim-prereq" type="button" value="reset">Reset</button>
+										<button disabled="disabled" class="gmw-button sim sim-prereq" type="button" value="start">Run</button>
+										<button disabled="disabled" class="gmw-button sim sim-prereq" type="button" value="pause">Pause</button>
+								</div>	
+								<div id="nav_location">
+									<input type="text" id="location" value="Vancouver, Canada" />
+									<div class="gmw-button" id="load_location">Set</div>
+									<button class="gmw-button" id="poisearch-btn">POI</button>
+								</div>						
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			
+			<div class="side-panel-group">
+					
+				<div id="ignition-panel" class="gmw-panel stackable">
+					<div class="inner">
+						<button id="ignition" class="gmw-button large on"><div class="icon ignite"></div><div class="led"></div>Ignition</button>
+						<div class="led-display mode-display">
+							<!-- <button disabled="disabled" class="sim sim-prereq" value="start">Drive</button>
+														<button class="sim" value="pause">Park</button> -->
+							<div class="mode-row">
+								<button id="park" class="mode park on"></button>
+								<button id="reverse" class="mode reverse off"></button>
+								<button id="neutral" class="mode neutral off"></button>
+							</div>
+							<div class="mode-row">
+								<button id="drive" class="mode drive off"></button>
+								<button id="lowspeed" class="mode lowspeed off"></button>
+								<button id="highspeed" class="mode highspeed off"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="shortcut-panel" class="gmw-panel stackable">
+					<div class="inner">
+						<div id="proximity-toggle" class="off">
+							<button id="prox-led" class="led"></button>
+							<div class="led-display narrow" style="display:inline-block">
+								<span class="label led-color">Proximity:</span>
+								<button id="prox-on"></button>
+								<button id="prox-off"></button>
+							</div>
+						</div>
+						
+						<button id="home_button" value="home" class="gmw-button tab first"><div class="icon home"></div>Home</button>
+						<button id="favorites_button" value="Favorites" class="gmw-button tab"><div class="icon favorites"></div>Favorites</button>
+						<button id="settings" class="gmw-button tab last"><div class="icon settings"></div>Settings</button>
+						
+					</div>
+				</div>
+	
+					
+				<div id="debug_container" class="gmw-panel stackable debug-panel">
+					<div class="inner">
+						<button class="gmw-button stretchable" type="button" value="rldapp">Reload App</button>
+						<button class="gmw-button stretchable" type="button" value="rldall">Reload All</button>
+						<button class="gmw-button stretchable" type="button" value="killapp">Kill App</button>
+						<button class="gmw-button stretchable" type="button" value="killall">Kill All</button>
+						<button class="gmw-button stretchable" type="button" value="vehConfig">Veh Config</button>
+						<button class="gmw-button stretchable" type="button" value="vehData">Veh Data</button>
+						<button class="gmw-button stretchable" type="button" value="tbd">TBD</button>
+						<button class="gmw-button stretchable" type="button" value="network">Network</button>
+						
+					</div>
+				</div>	
+							
+				<div id="map-panel">
+					<div id="map"></div>
+					<div id="load_route_prompt"><div class="prompt-label">To drive: Please load<br/>a route first</div></div>
+					<div class="map-shadow"></div>
+				</div>
+			</div>
+			<div id="ignition_off_overlay">
+	  		  <div id="ignition_status_off">Vehicle successfully shut down.</div>
+			  <div id="ignition_status_pending">Vehicle is shutting down...</div>
+			  <div id="ignition_restart">
+				  <button id="vehicle_restart">Start Vehicle</button>
+				  <div class="disclaimer">(This will reload the page.)</div>
+			  </div>
+			</div>
+			<div class="hide overlay-panel" id="settings_overlay">
+				<div class="inner">
+				<div id="settings_toolbar" class="toolbar">
+					<span class="left toolbar-title" id="settings_title">Settings</span>
+					<button id="close_settings_overlay" class="right">Close</button>
+					<div class="right" id="group_selector">
+						<span>Current Group: </span>
+						<select id="group_select">
+						  <option value="Vehicle_Config">Vehicle Configuration</option>
+						  <option value="Vehicle_Data">Vehicle Data</option>
+						  <option value="Network">Network Devices</option>
+						  <option value="Bluetooth">Bluetooth Services</option>
+						  <option value="Radio">Radio</option>
+						  <option value="Favorites">Favorites</option>
+						  <option value="Phone">Phone</option>
+						  <option value="General">General</option>
+						</select>
+					</div>
+					<span class="reset"></span>
+				</div>
+				<div id="Vehicle_Config" class="tab active">
+					<div class="setting-group">
+						<div class="title">Vehicle Type</div>
+						<div class="field">
+							<span class="label">Vehicle Brand:</span>
+							<span class="value">
+								<select id="theme">
+									<option value="gmc">GMC</option>
+									<option value="buick">Buick</option>
+									<option value="chevrolet">Chevrolet</option>
+									<option value="cadillac">Cadillac</option>
+									<option value="chevrolet-volt">Chevrolet-Volt</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Language:</span>
+							<span class="value">
+								<select id="language">
+									<!-- populated by VehicleConfigurationSettingView (vehicle-configuration-view.js) -->
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Region:</span>
+							<span class="value">
+								<select id="region">
+									<option value="North America">North America</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Left Hand Drive:</span>
+							<span class="value">
+								<select id="leftHandDrive">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Input</div>
+						<div class="field">
+							<span class="label">Screen Size:</span>
+							<span class="value">
+								<select id="screenSize">
+									<option value="8">8</option>
+									<option value="7">7</option>
+									<option value="4.2">4.2</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Input Method:</span>
+							<span class="value">
+								<select id="input">
+									<option value="I_Touch">Touch</option>
+									<option value="I_Rotary">Rotary</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Proximity Sensing</span>
+							<span class="value">
+								<select id="proximity">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Navigation</div>
+						<div class="field">
+							<span class="label">Nav Engine:</span>
+							<span class="value">
+								<select id="navEngine">
+									<option value="Embedded">Embedded</option>
+									<option value="TurnByTurn">TurnByTurn</option>
+									<option value="None">None</option>
+								</select>
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Communication</div>
+						<div class="field">
+							<span class="label">Text Messaging:</span>
+							<span class="value">
+								<select id="textMessaging">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Email:</span>
+							<span class="value">
+								<select id="email">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Phonebook:</span>
+							<span class="value">
+								<select id="phonebook">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Network</div>
+						<div class="field">
+							<span class="label">DUN:</span>
+							<span class="value">
+								<select id="DUN">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">PAN:</span>
+							<span class="value">
+								<select id="PAN">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">WIFI:</span>
+							<span class="value">
+								<select id="WIFI">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">UI</div>
+						<div class="field">
+							<span class="label">Video:</span>
+							<span class="value">
+								<select id="video">
+									<option value="None">None</option>	
+									<option value="Full-Screen">Full-Screen</option>
+									<option value="Embedded">Embedded</option>
+									<option value="FullOrEmbedded">Embedded</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">WebGL:</span>
+							<span class="value">
+								<select id="webGL">
+									<option value="true">True</option>
+									<option value="false">False</option>
+								</select>
+							</span>
+						</div>
+					</div>	
+					<div class="setting-group">
+						<div class="title">Buttons Available</div>
+						<div class="field" id="buttonsAvailable">
+							<input type="checkbox" value="SWC_SELECT" id="SWC_SELECT" />SWC_SELECT<br/>
+							<input type="checkbox" value="SWC_UP" id="SWC_UP" />SWC_UP<br/>
+							<input type="checkbox" value="SWC_DOWN" id="SWC_DOWN" />SWC_DOWN<br/>
+							<input type="checkbox" value="SWC_VOL_UP" id="SWC_VOL_UP" />SWC_VOL_UP<br/>
+							<input type="checkbox" value="SWC_VOL_DOWN" id="SWC_VOL_DOWN" />SWC_VOL_DOWN<br/>
+							<input type="checkbox" value="BUTTON_BACK" id="BUTTON_BACK" />BUTTON_BACK<br/>
+							<input type="checkbox" value="BUTTON_INFO" id="BUTTON_INFO" />BUTTON_INFO<br/>
+							<input type="checkbox" value="RC_CW" id="RC_CW" />RC_CW<br/>
+							<input type="checkbox" value="RC_CCW" id="RC_CCW" />RC_CCW<br/>
+							<input type="checkbox" value="RC_SELECT" id="RC_SELECT"/>RC_SELECT<br/>
+						</div>
+					</div>
+				</div>
+				<div id="Vehicle_Data" class="tab">
+					<!--  Will be filled by JavaScript -->
+				</div>
+				<div id="Network" class="tab">
+					<!--  Will be filled by JavaScript -->
+				</div>
+				<div id="Bluetooth" class="tab">
+					<!--  Will be filled by JavaScript -->
+				</div>
+				<div id="Phone" class="tab">
+					<div class="setting-group">
+						<div class="title">Data Sent to Phone</div>
+						<div class="field">
+							<div class="spp-data"></div>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Send Data from Phone</div>
+						<div class="field">
+							<textarea id="phoneData" rows=4 ></textarea>
+						</div>
+					</div>
+					<button id="sendData">Send to Vehicle</button>
+				</div>
+				<div id="Radio" class="tab">
+					<div style="height:25px;margin-right:20px;">
+						<button id="change_radio">Change</button>
+					</div>
+					<div class="setting-group">
+						<div class="title">Station</div>
+						<div class="field">
+							<span class="label">Band:</span>
+							<span class="value">
+								<select id="station_band">
+									<option value="AM">AM</option>
+									<option value="FM">FM</option>
+									<option value="HD">HD</option>
+									<option value="XM">XM</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Channel:</span>
+							<span class="value">
+								<input type="text" id="station_channel" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Title:</span>
+							<span class="value">
+								<input type="text" id="station_title" value="" />
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">Song</div>
+						<div class="field">
+							<span class="label">Title:</span>
+							<span class="value">
+								<input type="text" id="song_title" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Artist:</span>
+							<span class="value">
+								<input type="text" id="song_artist" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">RDS:</span>
+							<span class="value">
+								<input type="text" id="song_rds" value="" />
+							</span>
+						</div>
+					</div>
+					<div class="setting-group">
+						<div class="title">SDARS</div>
+						<div class="field">
+							<span class="label">SID:</span>
+							<span class="value">
+								<input type="text" id="sdars_sid" value="" type="number" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Data Authorization:</span>
+							<span class="value">
+								<select id="sdars_data_authorization">
+									<option value="0">unknown</option>
+									<option value="1">not_authorized</option>
+									<option value="2">free</option>
+									<option value="3">not_available</option>
+									<option value="4">authorized</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Data:</span>
+							<span class="value">
+								<textarea id="sdars_data" rows=4 cols=40></textarea>
+							</span>
+						</div>
+						<div style="height:25px;margin-right:20px;">
+							<button id="send_sdars">Send SDARS Data</button>
+						</div>
+					</div>
+				</div>
+				<div id="Favorites" class="tab">
+					<div>The favorites saved are listed below:</div>
+					<ul>
+					
+					</ul>
+				</div>
+				<div id="General" class="tab">
+					<div class="setting-group">
+						<div class="title">General</div>
+						<div class="field">
+							<span class="label">Username:</span>
+							<span class="value">
+								<input type="text" id="username" value="" />
+								<span class="field-error"></span>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">User Email:</span>
+							<span class="value">
+								<input type="text" id="useremail" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">User Pin:</span>
+							<span class="value">
+								<input type="text" id="userpin" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">iAPAuthentication response:</span>
+							<span class="value">
+								<input type="text" id="iap_auth" value="" />
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Protocol:</span>
+							<span class="value">
+								<select id="protocol">
+									<option value="https">https</option>
+									<option value="http">http</option>
+								</select>
+							</span>
+						</div>
+						<div class="field">
+							<span class="label">Base Server URL:</span>
+							<span class="value">
+								<input type="text" id="base_server_url" value="" />
+							</span>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="invisible-overlay"></div>
+		</div>
+	</body>
+</html>
