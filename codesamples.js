@@ -6,6 +6,11 @@ var ttsInput, txtPhone, textMsgNum, textMsg, txtFilename, txtContents, txtRead, 
 
 function init() {
 
+	//test
+	var testingBtn = new gm.widgets.Button({label: "test",
+        parentElement: document.getElementById('test-button') });
+	testingBtn.render();
+	
 	// Create Expandable regions
 	x$(".group").addClass("closed");
 	x$(".group .title").on("click", function() {
