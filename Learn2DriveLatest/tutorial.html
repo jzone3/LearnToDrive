@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Learn To Drive App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="GMLIB/com.gm.widgets.css" type="text/css" />
+<script type="text/javascript" src="GMLIB/com.gm.widgets.js"></script>
+<script type="text/javascript" src="GMLIB/comm.js"></script>
+<script type="text/javascript" src="GMLIB/info.js"></script>
+<script type="text/javascript" src="GMLIB/io.js"></script>
+<script type="text/javascript" src="GMLIB/media.js"></script>
+<script type="text/javascript" src="GMLIB/phone.js"></script>
+<script type="text/javascript" src="GMLIB/system.js"></script>
+<script type="text/javascript" src="GMLIB/ui.js"></script>
+<script type="text/javascript" src="GMLIB/voice.js"></script>
+
+
+<link rel="stylesheet" href="style.css"
+	tyconsole.log(gm.system.getSpeed());pe="text/css" />
+</head>
+<body onload="gm.system.init();javascript:init();">
+
+	<h2 class="titles"><small>Learn to Drive!</small> - <strong>Tutorials</strong></h2>
+	
+	<div id="back-button"></div>
+	
+	<script type="text/javascript">
+		/* ,
+		callBack: function(){document.getElementById('speaker').style.visibility='visible';
+		 */
+
+		var uTurn = new gm.widgets.Button({
+			label : "U-Turn",
+			parentElement : document.getElementById('uTurn-button'),
+		});
+		var kTurn = new gm.widgets.Button({
+			label : "K-Turn",
+			parentElement : document.getElementById('kTurn-button')
+
+		});
+
+		var parallelPark = new gm.widgets.Button({
+			label : "Parallel Park",
+			parentElement : document.getElementById('parallelPark-button')
+
+		});
+		var park = new gm.widgets.Button({
+			label : "Perpendicular Park",
+			parentElement : document.getElementById('park-button')
+
+		});
+		var leftTurn = new gm.widgets.Button({
+			label : "Left Turn",
+			parentElement : document.getElementById('leftTurn-button')
+
+		});
+	</script>
+
+	<center>
+		<img src="parallel.png" alt="some_text">
+		<button class="gm_widget_button" tabindex="0"
+			onclick="parallel_f(this)">Parallel Park</button>
+		<img src="speaker.gif" class='hidden'>
+	</center>
+	<center>
+		<img src="park.png" alt="some_text">
+		<button class="gm_widget_button"
+			onclick="park_f(this)"
+			tabindex="0">Park</button>
+		<img src="speaker.gif" class='hidden'>
+	</center>
+
+	<center>
+		<img src="left.png" alt="some_text">
+		<button class="gm_widget_button"
+			onclick="left_f(this)"
+			tabindex="0">Left Turn</button>
+		<img src="speaker.gif" class='hidden'>
+	</center>
+	<center>
+		<img src="uturn.png" alt="some_text">
+		<button class="gm_widget_button"
+			onclick="uTurn_f(this)"
+			tabindex="0">U-Turn</button>
+		<img src="speaker.gif" class='hidden'>
+	</center>
+
+	<center>
+		<img src="kturn.png" alt="some_text">
+		<button class="gm_widget_button"
+			onclick="kTurn_f(this)"
+			tabindex="0">K-Turn</button>
+		<img src="speaker.gif" class='hidden'>
+	</center>
+
+
+	<!-- <div >
+		<button class="gm_widget_button" onclick="window.location.assign("
+			statistics.html")" tabindex="0">Statistics</button>
+</div> -->
+	<script>
+		// Create Expandable regions
+		x$(".group").addClass("closed");
+		x$(".group .title").on("click", function() {
+			var el = x$(this.parentNode);
+			if (el.hasClass("closed"))
+				el.removeClass("closed");
+			else
+				el.addClass("closed");
+		});
+	</script>
+
+	<div class="button">
+		<!-- <img src="park.png" alt="some_text"> -->
+
+	</div>
+
+	<script>
+		var backBtn = new gm.widgets.Button({label: "Back",
+	        parentElement: document.getElementById('back-button'),
+			callBack: function(){history.back();}
+		});
+		backBtn.render();
+	
+		function parallel_f(element) {
+			element.nextElementSibling.className = (element.nextElementSibling.className == 'hidden') ? 'unhidden'
+					: 'hidden';
+
+			if (running == false) {
+				running = true;
+				parallelElement.play();
+			} else {
+				running = false;
+				uTurnElement.pause();
+				kTurnElement.pause();
+				leftElement.pause();
+				parkElement.pause();
+				parallelElement.pause();
+			}
+
+		}
+		var running = false;
+		var uTurnElement = document.createElement('audio');
+		uTurnElement.setAttribute('src', 'uTurn.mp3');
+		var kTurnElement = document.createElement('audio');
+		kTurnElement.setAttribute('src', 'kTurn.mp3');
+		var leftElement = document.createElement('audio');
+		leftElement.setAttribute('src', 'left.mp3');
+		var parkElement = document.createElement('audio');
+		parkElement.setAttribute('src', 'park.mp3');
+		var parallelElement = document.createElement('audio');
+		parallelElement.setAttribute('src', 'parallel.mp3');
+
+		function uTurn_f(element) {
+			element.nextElementSibling.className = (element.nextElementSibling.className == 'hidden') ? 'unhidden'
+					: 'hidden';
+			if (running == false) {
+				running = true;
+				uTurnElement.play();
+			} else {
+				running = false;
+				uTurnElement.pause();
+				kTurnElement.pause();
+				leftElement.pause();
+				parkElement.pause();
+				parallelElement.pause();
+			}
+
+		}
+		function kTurn_f(element) {
+			element.nextElementSibling.className = (element.nextElementSibling.className == 'hidden') ? 'unhidden'
+					: 'hidden';
+
+			if (running == false) {
+				running = true;
+				kTurnElement.play();
+			} else {
+				running = false;
+				uTurnElement.pause();
+				kTurnElement.pause();
+				leftElement.pause();
+				parkElement.pause();
+				parallelElement.pause();
+			}
+		}
+		function left_f(element) {
+			element.nextElementSibling.className = (element.nextElementSibling.className == 'hidden') ? 'unhidden'
+					: 'hidden';
+
+			if (running == false) {
+				running = true;
+				leftElement.play();
+			} else {
+				running = false;
+				uTurnElement.pause();
+				kTurnElement.pause();
+				leftElement.pause();
+				parkElement.pause();
+				parallelElement.pause();
+			}
+		}
+
+		function park_f(element) {
+			element.nextElementSibling.className = (element.nextElementSibling.className == 'hidden') ? 'unhidden'
+					: 'hidden';
+
+			if (running == false) {
+				running = true;
+				parkElement.play();
+			} else {
+				running = false;
+				uTurnElement.pause();
+				kTurnElement.pause();
+				leftElement.pause();
+				parkElement.pause();
+				parallelElement.pause();
+			}
+		}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>GM Dashboard App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="GMLIB/com.gm.widgets.css" type="text/css"/>
+		<script type="text/javascript" src="GMLIB/com.gm.widgets.js"></script>
+		<script type="text/javascript" src="GMLIB/comm.js"></script>
+		<script type="text/javascript" src="GMLIB/info.js"></script>
+		<script type="text/javascript" src="GMLIB/io.js"></script>
+		<script type="text/javascript" src="GMLIB/media.js"></script>
+		<script type="text/javascript" src="GMLIB/phone.js"></script>
+		<script type="text/javascript" src="GMLIB/system.js"></script>
+		<script type="text/javascript" src="GMLIB/ui.js"></script>
+		<script type="text/javascript" src="GMLIB/voice.js"></script>
+		<script type="text/javascript" src="codesamples.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body onload="gm.system.init();javascript:init();">
+    
+    <h2 class="titles"><small>Learn to Drive!</small> - <strong>Maneuvers</strong></h2>
+
+	<div id="back-button"></div>
+	
+	<hr style="margin-top: 50px;">
+
+	<table style="margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color: rgba(0, 0, 0, 0.57)">
+		<tr style="border-bottom: 3px solid blue;">
+			<th>Picture</th>
+			<th class="name">Name</th>
+			<th>Count</th>
+		</tr>
+		<tr>
+			<td class="image-table"><img src="parallel.png" alt="some_text"></td>
+			<td class="name">Parallel Park</td>
+			<td class="count"></td>
+		</tr>
+		<tr>
+			<td class="image-table"><img src="left.png" alt="some_text"></td>
+			<td class="name">Left Turn</td>
+			<td class="count"></td>
+		</tr>
+		<tr>
+			<td class="image-table"><img src="uturn.png" alt="some_text"></td>
+			<td class="name">U-Turn</td>
+			<td id="uturn" class="count" onload="alert(this)"></td>
+		</tr>
+		<tr>
+			<td class="image-table"><img src="kturn.png" alt="some_text"></td>
+			<td class="name">K-Turn</td>
+			<td class="count"></td>
+		</tr>
+		<tr>
+			<td class="image-table"><img src="park.png" alt="some_text"></td>
+			<td class="name">Perpendicular Park</td>
+			<td class="count"></td>
+		</tr>
+	</table>
+	
+	<!--
+	//total miles 
+	//total hours 
+	//hours at night
+	//maneuvers...
+		//count for each one  -->
+    
+    <script type="text/javascript">
+		var backBtn = new gm.widgets.Button({label: "Back",
+	        parentElement: document.getElementById('back-button'),
+			callBack: function(){history.back();}
+		});
+		backBtn.render();
+		
+		/* var xmlHttp = new XMLHttpRequest();
+		
+		xmlHttp.open("GET", "http://learntodrivebrain.appspot.com/maneuver?uturn=1&id=1&req=True");
+		xmlHttp.send();
+		document.getElementById('uturn').contentWindow.document.documentElement.innerHTML = xmlHttp.responseText; */
+	</script>
+    
+    </body>
+</html>
