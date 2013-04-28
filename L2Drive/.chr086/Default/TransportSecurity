@@ -1,0 +1,10 @@
+{
+   "qaKvSnq8WSzRIjDgtJsEtav1s8S199Yz0q6Ho1Lt2xI=": {
+      "created": 1367120605.861088,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1398656605.862383,
+      "include_subdomains": false,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   }
+}

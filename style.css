@@ -4,11 +4,26 @@
 
 body {
 	margin-top:100px;
-	background: url('GMLIB/themes/gmc/bg.png') fixed;
+	background: url('background.png') fixed;
 	color:#EEE;
 	font-size:35px;
 }
 
+.tutorial-button{
+	position:absolute;
+	top:250px;
+	left:150px;
+}
+.stats-button{
+	position:absolute;
+	top:0px;
+	left:275px;
+}
+.button{
+	margin-top:10px;
+	left:250px;
+	column-count:1;
+}
 h2 {
 	text-align: center;
 	font-size:30px;
@@ -17,7 +32,8 @@ h2 {
 p {
 	margin: 20px;
 }
-
+.hidden { display: none; }
+.unhidden { display: inline; }
 .group {
 	position: relative;
 	-webkit-border-radius: 8px;
@@ -75,4 +91,15 @@ p {
 .group .field .value {
 	display: table-cell;
 	padding: 0 8px 0 4px;
+}
+
+.gm_widget_button {
+	display: inline-block;
+	margin-left: 350px;
+}
+
+img {
+
+	display: inline-block;
+	height:70px;
 }
