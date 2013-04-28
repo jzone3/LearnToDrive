@@ -2,8 +2,8 @@
    "browser": {
       "last_redirect_origin": ""
    },
-   "http_original_content_length": "43747935",
-   "http_received_content_length": "43747935",
+   "http_original_content_length": "50270984",
+   "http_received_content_length": "50270984",
    "local_state": {
       "multiple_profile_prefs_version": 7
    },
@@ -165,7 +165,6 @@
             "user_name": ""
          }
       },
-      "last_active_profiles": [ "Default" ],
       "last_used": "Default"
    },
    "shutdown": {
@@ -188,7 +187,7 @@
          "debugger_present": 0,
          "exited_cleanly": false,
          "incomplete_session_end_count": 0,
-         "last_timestamp_sec": "1367124987",
+         "last_timestamp_sec": "1367131300",
          "launch_count": 1,
          "launch_time_sec": "1367123786",
          "page_load_count": 0,

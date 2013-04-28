@@ -21,6 +21,18 @@
                }
             }
          }
+      },
+      "window_placement_DevToolsApp": {
+         "always_on_top": false,
+         "bottom": 835,
+         "left": 761,
+         "maximized": false,
+         "right": 1401,
+         "top": 173,
+         "work_area_bottom": 900,
+         "work_area_left": 4,
+         "work_area_right": 1440,
+         "work_area_top": 22
       }
    },
    "countryid_at_install": 21843,
@@ -364,9 +376,6 @@
       "http_server_properties": {
          "servers": {
             "www.google.com:443": {
-               "settings": {
-                  "4": 100
-               },
                "supports_spdy": true
             }
          },

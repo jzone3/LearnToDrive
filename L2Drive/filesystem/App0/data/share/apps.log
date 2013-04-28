@@ -9444,3 +9444,1683 @@ Sun, 28 Apr 2013 04:56:18 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero
 Sun, 28 Apr 2013 04:56:18 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
 Sun, 28 Apr 2013 04:56:18 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
 Sun, 28 Apr 2013 04:56:18 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:16 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 05:37:16 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 05:37:17 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:37:17 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 05:37:17 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:21 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:22 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:51 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 05:37:51 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:53 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:37:54 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:39:35 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 05:39:35 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:39:37 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:39:38 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:40:51 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 05:40:51 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:40:52 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:40:53 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:40:54 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:40:54 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:44:58 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 05:44:58 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:54:15 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 05:54:16 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:15 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:02:15 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:17 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:32 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:02:32 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:33 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:53 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:02:53 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:02:56 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:04:01 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:04:01 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:04:02 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:04:03 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:09:29 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:09:29 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:09:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:09:31 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:11:14 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:11:14 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:11:15 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:11:16 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:15:36 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:15:36 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:15:38 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:15:39 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:18:57 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:18:57 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:18:59 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:00 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:28 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:19:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:19:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:22:30 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:22:30 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:22:31 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:22:31 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:22:32 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:22:33 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:23:41 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:23:41 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:23:42 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:23:43 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:24:27 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:24:27 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:24:28 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:24:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:28:10 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:28:10 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:28:11 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:28:12 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:29:29 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:29:29 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:29:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:30:28 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:30:28 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:30:29 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:30:30 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:32:02 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:32:02 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:32:03 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:32:04 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:34:21 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:34:21 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:34:22 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:34:23 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:36:18 GMT: INFO - ***************** APP 3 started******************
+Sun, 28 Apr 2013 06:36:18 GMT: DEBUG - App3 >> index.js >> onload >> going to call gm.vehicle.getVehicleConfiguration 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> index.js >> onload 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.watchNetworkConnectivity
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> calling gm.hmi.getNetworkConnectivity()
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> NetworkWatchInterface.js >> init >> doing nothing when gm.hmi.getNetworkConnectivity()=true
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> index.js >> onload >> NetworkWatchInterface initializiation called
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> index.js >> onload >> DataWatchInterface initializiation called
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> TokenWatchInterface.js >> init 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> call gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> success in gm.networkmanager.getAuthToken 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> TokenWatchInterface.js >> checkToken >> current Date:Sun Apr 28 2013 00:00:00 GMT-0400 (EDT)
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - APP 3 >>  TokenWatchInterface.js >> checkToken >> Current Date: 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> index.js >> onload >> TokenWatchInterface initializiation called
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> index.js >> onload >> getNetworkConnectivity=true
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >>index.js >> onload >>  Network connectivity is available Start Sync
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> sync.js >>  synchronize >>STARTING SYNC
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> sync.js >>  synchronize >> call gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> sync.js >>  synchronize >> success in gm.networkmanager.getAuthToken
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> sync.js >>  synchronize >>getAuth Token userData:[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> sync.js >>  synchronize >> userdata Authtoken:m5g9i2s
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >>index.js >> onload >> call Config.processBaseUrl()
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - APP 3 SYNC >> Bad web service with Sub Status Code undefined and AuthTokenInValid is set to false
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - APP 3 SYNC >> Bad web service 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:36:19 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_VERSION_DISPLAY_TEXT
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getVersionDisplayText >> appID: 
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - Sending ->
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> gm.communication.watchForData success. WatchID:0
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData data:[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.senderID:88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> DataWatchInterface.js >> init >> watchForData  data.data:[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> json[object Object]
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> appID88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> user.js >>  route>> json.command=APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> appID:88342571
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >> Messaging.app_zero.route >> json.command:APP3_GET_MY_VERSION
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.getMyVersion >> appID: 
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - App3 >> app_zero.js >>  Messaging.app_zero.utils >> send >> appID: 
+Sun, 28 Apr 2013 06:36:20 GMT: DEBUG - Sending ->
